@@ -45,7 +45,7 @@ async def mqtt_producer(mqtt_broker: str,
                 # Single message stream from all topics subscribed
                 async for message in client.messages():
                     # print(message.payload)
-                    # TODO made one unified format for mqtt messages, json format.
+                    # TODO made one unified format for MQTT messages, JSON format.
                     # TODO something like this
                     #  {"name": "Liebherr 4140",
                     #  "serial_number": "L8u80938927867",
